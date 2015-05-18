@@ -1,0 +1,12 @@
+F:\SmallProject\KamonCrush\KamonCrush\bin\Debug\KamonCrush.exe
+F:\SmallProject\KamonCrush\KamonCrush\bin\Debug\KamonCrush.pdb
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\ResolveAssemblyReference.cache
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\Main.baml
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\Main.g.cs
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\App.g.cs
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\KamonCrush_MarkupCompile.cache
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\KamonCrush.g.resources
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\KamonCrush.Properties.Resources.resources
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\KamonCrush.csproj.GenerateResource.Cache
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\KamonCrush.exe
+F:\SmallProject\KamonCrush\KamonCrush\obj\Debug\KamonCrush.pdb

@@ -1,0 +1,21 @@
+﻿<Window x:Class="KamonCrush.Main"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="KamonCrush" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Width="806" Height="616">
+    <Canvas Height="600" Width="800">
+        <Canvas.Background>
+            <ImageBrush ImageSource="/KamonCrush;component/Images/background.png" />
+        </Canvas.Background>
+        <Canvas Name="Panel" Height="600" Width="800">
+            <TextBlock FontWeight="Bold" Canvas.Left="6" Canvas.Top="112" Height="42" Text="{Binding Path=Score}" VerticalAlignment="Stretch" TextAlignment="Center" FontSize="24" Width="138" />
+            <TextBlock FontWeight="Bold" Canvas.Left="661" Canvas.Top="112" Height="42" Text="{Binding Path=Hint}" VerticalAlignment="Stretch" TextAlignment="Center" FontSize="24" Width="138" />
+        </Canvas>
+        <Image Name="HintImage" Source="/KamonCrush;component/Images/hintbutton.png" Width="42" Height="49" Canvas.Left="698" Canvas.Top="526" MouseEnter="Hint_MouseEnter" MouseLeave="Hint_MouseLeave" MouseLeftButtonDown="Hint_MouseLeftButtonDown" />
+        <Image Name="Help" Source="/KamonCrush;component/Images/helpbutton.png" Width="34" Height="48" Canvas.Left="742" Canvas.Top="526" MouseEnter="Help_MouseEnter" MouseLeave="Help_MouseLeave" MouseLeftButtonDown="Help_MouseLeftButtonDown" />
+        <Image Name="HelpImage" Source="/KamonCrush;component/Images/help.png"  Opacity="0" Width="800" Height="600" Canvas.Left="9999" Canvas.Top="9999" MouseLeftButtonDown="HelpImage_MouseLeftButtonDown" />
+        <Image Name="HitImage" Source="/KamonCrush;component/Images/hit.png" Opacity="0"  Width="514" Height="146" Canvas.Left="9999" Canvas.Top="9999" />
+        <Image Name="HitXImage" Source="/KamonCrush;component/Images/x2.png" Opacity="0"  Width="257" Height="89" Canvas.Left="9999" Canvas.Top="9999" />
+        <Image Name="GameOverImage" Source="/KamonCrush;component/Images/gameover.png" Opacity="0"  Width="402" Height="106" Canvas.Left="9999" Canvas.Top="9999" />
+        <Image Name="ResetImage" Source="/KamonCrush;component/Images/resetbutton.png" Opacity="0" Width="147" Height="63" Canvas.Left="9999" Canvas.Top="9999" MouseEnter="ResetImage_MouseEnter" MouseLeave="ResetImage_MouseLeave" MouseLeftButtonDown="ResetImage_MouseLeftButtonDown" />
+    </Canvas>
+</Window>
